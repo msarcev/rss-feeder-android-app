@@ -1,0 +1,14 @@
+bin/
+.settings/
+.classpath
+.project
+*.iml
+/target
+/target/
+/gen
+.idea
+app/build/
+build/
+.gradle/
+local.properties
+proguard-project.txt

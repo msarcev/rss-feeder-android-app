@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="action_share">Share</string>
+   		 <string name="string_btn_1">News</string>
+    <string name="string_btn_1_CAPS">NEWS</string>
+  	     <string name="string_btn_2">Sport</string>
+    <string name="string_btn_2_CAPS">SPORT</string>
+   		 <string name="string_btn_3">Lifestyle</string>
+    <string name="string_btn_3_CAPS">LIFESTYLE</string>
+   		 <string name="string_btn_4">Business</string>
+    <string name="string_btn_4_CAPS">BUSINESS</string>
+  		 <string name="string_btn_5">Fun</string>
+    <string name="string_btn_5_CAPS">FUN</string>
+   		 <string name="string_btn_6">Tech</string>    
+    <string name="string_btn_6_CAPS">TECH</string>    
+   		 <string name="string_btn_7">QuickLinks</string>
+    <string name="app_html">...</string>
+    <string name="load_text">Please wait while we load news from </string>
+    <string name="error_msg">Error while fetching rss feed..</string>
+    <string name="unicode">utf-8</string>
+    
+    <string name="toggle_btn_text">III</string>
+    <string name="image_view_desc1">Custom toast image 1</string>
+</resources>

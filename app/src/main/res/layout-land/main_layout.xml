@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent" 
+    xmlns:ads="http://schemas.android.com/apk/res-auto"   
+    android:layout_width="match_parent" 
+    android:orientation="vertical"
+    android:id="@+id/glavni_layout">
+    
+     <com.google.android.gms.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="ca-app-pub-5701642069678716/4102961669"
+                         ads:adSize="SMART_BANNER"/>
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"        
+    	android:background="@color/Black"
+        android:id="@+id/top_menuBtn">
+        <Button             
+            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:background="@drawable/toggle_btn"
+            android:id="@+id/hide_btn"/>
+        <HorizontalScrollView 
+    			android:layout_width="match_parent"
+    			android:layout_height="wrap_content"    
+    			android:background="@color/Black"		  
+    			android:id="@+id/fragment_top_menu"
+    			android:layout_marginBottom="1dp"
+    			android:layout_marginLeft="1px">
+
+            <LinearLayout
+                android:id="@+id/top_menu_list_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="1dp"
+                android:orientation="horizontal">
+        
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="70dp"
+            android:layout_height="40dp"         
+            android:textStyle="bold"
+            android:textColor="@color/AliceBlue"  
+            android:background="@drawable/cat_item_mid"
+            android:text="@string/string_btn_1" />
+        <Button 
+			android:layout_width="70dp"
+            android:layout_height="40dp"           
+            android:background="@drawable/cat_item_mid"          
+            android:id="@+id/btn2"
+            android:textStyle="bold"
+            android:textColor="@color/AliceBlue"
+            android:text="@string/string_btn_2"/>       
+        <Button android:layout_width="70dp"
+            android:layout_height="40dp"           
+            android:background="@drawable/cat_item_mid"          
+            android:id="@+id/btn3"
+            android:textStyle="bold"
+            android:textColor="@color/AliceBlue"
+            android:text="@string/string_btn_3"/>
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/AliceBlue"
+            android:background="@drawable/cat_item_mid"
+            android:text="@string/string_btn_4" />        
+        <Button 
+            android:layout_width="70dp"
+            android:layout_height="40dp"           
+            android:background="@drawable/cat_item_mid"
+            android:id="@+id/btn5"            
+            android:textStyle="bold"
+            android:textColor="@color/AliceBlue"
+            android:text="@string/string_btn_5"/>
+        <Button 
+            android:layout_width="70dp"
+            android:layout_height="40dp"           
+            android:background="@drawable/cat_item_mid"
+            android:id="@+id/btn6"             
+            android:textStyle="bold"
+            android:textColor="@color/AliceBlue"
+            android:text="@string/string_btn_6"/>        
+        <Button 
+            android:layout_width="85dp"
+            android:layout_height="40dp"           
+            android:background="@drawable/cat_item_mid"
+            android:id="@+id/btn7" 
+            android:textStyle="bold"
+            android:textColor="@color/AliceBlue"
+            android:text="@string/string_btn_7"/>      
+            
+        
+    </LinearLayout>    
+    </HorizontalScrollView>    
+    </LinearLayout>
+  
+        
+        <RelativeLayout 
+            android:baselineAligned="false"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"        
+    		android:id="@+id/swipe_layout" >    
+    		                           
+              <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/content_holder"
+        android:layout_toRightOf="@+id/list_fragment_holder"
+        android:background="@color/Black"/>             
+              <LinearLayout     
+        android:orientation="horizontal"           
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:id="@+id/list_fragment_hidden_holder"
+        android:layout_alignParentLeft="true"/>           
+              <LinearLayout     
+        android:orientation="horizontal"           
+        android:layout_height="match_parent"
+        android:layout_width="180dp"
+        android:id="@+id/list_fragment_holder"
+        android:layout_alignParentLeft="true"/> 
+        <LinearLayout 
+        android:orientation="horizontal"     
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/holder1"
+        android:layout_alignParentTop="true"/>             
+        </RelativeLayout> 
+   
+    
+</LinearLayout>
